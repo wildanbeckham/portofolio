@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export default function ReactJS() {
   const project = [
-    { img: "1", visit: "https://github.com/wildanbeckham/moonton1" },
+    { img: "1", visit: "https://github.com/wildanbeckham/portofolio" },
     { img: "2", visit: "https://github.com/wildanbeckham/moonton1" },
   ];
   return (

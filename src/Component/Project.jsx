@@ -32,8 +32,8 @@ export default function Project() {
           </div>
           <div className="row">
             <div className="col">
-              <Wordpress />
               <React />
+              <Wordpress />
               <Template />
             </div>
           </div>
