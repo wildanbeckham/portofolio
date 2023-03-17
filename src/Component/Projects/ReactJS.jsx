@@ -31,7 +31,7 @@ export default function ReactJS() {
                     to={item.visit}
                     target="_blank"
                   >
-                    Sour Code
+                    Source Code
                   </Link>
                 </div>
               </Card.ImgOverlay>
