@@ -22,7 +22,7 @@ export default function ReactJS() {
               <Card.Img
                 src={"/images/react/project" + item.img + ".png"}
                 className="img-overlay border border-dark border-4"
-                alt="Card image"
+                alt="Card imag"
               />
               <Card.ImgOverlay className="overlay d-none border border-dark border-4">
                 <div className="h-100 d-flex align-items-center justify-content-center">
