@@ -9,20 +9,20 @@ import SkillPage from "./Pages/SkillPage";
 import ContactPage from "./Pages/ContactPage";
 
 function App() {
-  ReactDOM.render(
-    <BrowserRouter>
+  return (
+    <Router>
       <Routes>
-        <Route exact path="/" element={<HomePage />} />
+        <Route path="/" element={<HomePage />} />
 
-        <Route exact path="/about" element={<AboutPage />} />
+        <Route path="/about" element={<AboutPage />} />
 
-        <Route exact path="/project" element={<ProjectPage />} />
+        <Route path="/project" element={<ProjectPage />} />
 
-        <Route exact path="/skill" element={<SkillPage />} />
+        <Route path="/skill" element={<SkillPage />} />
 
-        <Route exact path="/contact" element={<ContactPage />} />
+        <Route path="/contact" element={<ContactPage />} />
       </Routes>
-    </BrowserRouter>
+    </Router>
   );
 }
 
