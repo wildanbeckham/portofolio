@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap");
 
 body {
-  font-family: 'Montserrat Alternates', sans-serif;
+  font-family: "Montserrat Alternates", sans-serif;
   padding: 0;
   margin: 0;
 }
@@ -20,4 +20,61 @@ button {
 .btn:first-child:active,
 :not(.btn-check) + .btn:active {
   border-color: transparent !important;
+}
+
+aside {
+  color: #fff;
+  width: 60px;
+  max-width: 80px;
+  height: 100vh;
+  border-top-right-radius: 80px;
+}
+
+aside a {
+  color: #fff;
+  display: block;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+aside .active {
+  color: #ffc107;
+  background: #fff;
+  outline: none;
+  position: relative;
+  background-color: #fff;
+}
+
+aside .active::after {
+  content: "";
+  position: absolute;
+  background-color: transparent;
+  bottom: 100%;
+  right: 0;
+  height: 35px;
+  width: 30px;
+  border-bottom-right-radius: 18px;
+  box-shadow: 0 20px 0 0 #fff;
+}
+
+aside .active::before {
+  content: "";
+  position: absolute;
+  background-color: transparent;
+  top: 100%;
+  right: 0;
+  height: 35px;
+  width: 30px;
+  border-top-right-radius: 18px;
+  box-shadow: 0 -20px 0 0 #fff;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }

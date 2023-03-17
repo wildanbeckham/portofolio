@@ -1,0 +1,32 @@
+.img-overlay {
+  -webkit-transition: 1s;
+}
+
+#card {
+  box-shadow: rgb(0, 0, 0) 5px 5px;
+  -webkit-transition: 1s;
+}
+
+#card:hover .overlay {
+  display: block !important;
+  -webkit-transition: 1s;
+}
+
+#card:hover .img-overlay {
+  filter: brightness(50%);
+  -webkit-transition: 1s;
+}
+
+.overlay {
+  -webkit-transition: 1s;
+  display: none;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #adb5bd;
+  border-radius: 10px;
+}
