@@ -10,7 +10,7 @@ import ContactPage from "./Pages/ContactPage";
 
 function App() {
   return (
-    <Router>
+    <BrowserRouter>
       <Routes>
         <Route path="/" element={<HomePage />} />
 
@@ -22,7 +22,7 @@ function App() {
 
         <Route path="/contact" element={<ContactPage />} />
       </Routes>
-    </Router>
+    </BrowserRouter>
   );
 }
 
